@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Font+Name">
         <title>PIG-DICE-GAME</title>
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -12,26 +13,33 @@
         <script src="js/scripts.js"></script>        
          
     </head>
-    <body>
+    <body id="back">
         <div class="container-fluid">
           <div class="jumbotron" id="higher">
             <p>P I N G-D I C E <div id="pid"></div></p>
             <P>game <div id="game"></div></P>
+            <br>
+            <br>
+            <br>
           </div> 
         </div>  
         <div class="container" id="rules">
            <div class="jumbotron" id="lower">
             <h1>RULES</h1>
-            <li>
-                <li>One player at a time.</li>
+            <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+            <ul>
+                 <li>One player at a time.</li>
                 <li>The dice runs from number 1 - 6.</li>
                 <li>Make sure you alternate when playing.</li>
                 <li>NB.MAKE SURE YOU HAVE FUN!!!</li>
-            </li>
+            </ul>
+            <br>
+            <br>
+            <br>
            </div> 
             <br>
             <br>
-            <br>
+            
             <br>
         <div class="row">
             <div class="col-md-4">
@@ -46,7 +54,7 @@
             </div> 
             </div>
             <div class="col-md-3">
-                    <img src="images/939962_878b_2.jpg" width="300" height="280">
+                    <img src="images/Pato.gif" width="300" height="280" class="img-thumbnail">
             </div>
             <div class="col-md-5">
                     <h1><span id="playerName2"></span>Player one<br>Score: <span class="gameStatusDisplay player2Score">0</span></h1>
@@ -57,7 +65,7 @@
                     <p>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></p>
           
           
-                    <button type="button" class="btn btn-warning btn-lg rollPig">$$$Roll Dice $$$</button>
+                    <button type="button" class="btn btn-warning btn-lg rollPig" id="hover">$$$Roll Dice $$$</button>
                     <button type="button" class="btn btn-primary btn-lg holdPig">Hold for points</button>
                     </div>
             </div>  

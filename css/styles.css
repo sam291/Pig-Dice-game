@@ -2,3 +2,24 @@
 .col-md-5{
     left: 80px;
 }
+#higher{
+    text-align: center;
+    background-image: url(../images/text.gif);
+    background-size: 650px
+}
+#back{
+    background-image: url(../images/chain-fence-long-exposure-orange-blue-blur-4k-xf-1336x768.jpg);
+    background-size: 1400px;
+    right:1200px;
+    
+}
+#lower{
+    text-align: center;
+    background-image: url(../images/Loading-GIF-Image-4.gif);
+    background-size: 600px;
+    background-position-x: 30.5cm;
+    color: aqua;
+    font-family: 'Merienda', cursive;
+    top: 220px
+
+}
