@@ -62,10 +62,7 @@
     pigGame.turnScore = 0;
   }
   
-  // -----BUSINESS LOGIC --- (above) -----
-  // ------------------------------------
-  // ----USER LOGIC ---- (below)--------
-  
+  //BUSINESS LOGIC  
   
   function alertEndTurn(){
     alert("Sorry - you rolled a 1.  Your score remains the same and your turn is over.");
@@ -89,11 +86,7 @@
         $("#player1Button").show();
         $(".playerStatus").text(pigGame.playerUp);
         event.preventDefault();
-  
-      var nameHolder = new Names(playerName1, playerName2);
-    })
-  
-  
+    })  
     $(".rollPig").click(function() {
       pigResult = playerRoll();
       $(".rollResult").text(pigResult);
@@ -109,4 +102,4 @@
       $(".playerStatus").text(pigGame.playerUp);
     });
   });
-  
+  // user interface logic
