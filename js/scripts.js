@@ -1,8 +1,3 @@
-function Names(name1, name2) {
-    this.name1 = name1;
-    this.name2 = name2;
-  }
-  
   var pigGame = {
     player1Score: 0,
     player2Score: 0,
@@ -24,10 +19,10 @@ function Names(name1, name2) {
     } else {
       pigGame.turnScore +=roll;
       if (pigGame.playerUp === 1) {
-        if (pigGame.turnScore + pigGame.player1Score >= 21) {
+        if (pigGame.turnScore + pigGame.player1Score >=100) {
           alertWinner(1);
         }
-      } else if (pigGame.turnScore + pigGame.player2Score >= 21) {
+      } else if (pigGame.turnScore + pigGame.player2Score >=100) {
         alertWinner(2);
     }
     }
@@ -48,13 +43,13 @@ function Names(name1, name2) {
   
   function switchPlayer () {
     if (pigGame.playerUp === 1) {
-      $("#player1Button").hide();
+      $("#player1Button").show();
       $("#player2Button").show();
       pigGame.playerUp = 2;
   
     } else {
-      $("#player2Button").hide();
       $("#player1Button").show();
+      $("#player2Button").show();
       pigGame.playerUp = 1;
   
     }
