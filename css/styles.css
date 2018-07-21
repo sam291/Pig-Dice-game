@@ -2,3 +2,150 @@
 .col-md-5{
     left: 80px;
 }
+#higher{
+    text-align: center;
+    background-image: url(../images/text.gif);
+    background-size: 650px
+}
+#back{
+    background-image: url(../images/chain-fence-long-exposure-orange-blue-blur-4k-xf-1336x768.jpg);
+    background-size: 1400px;
+    right:1200px;
+    
+}
+#lower{
+    text-align: center;
+    background-image: url(../images/Loading-GIF-Image-4.gif);
+    background-size: 600px;
+    background-position-x: 30.5cm;
+    color: aqua;
+    font-family: 'Merienda', cursive;
+}
+#one{
+    font-family: 'Monoton', cursive;
+
+}
+#two{
+    font-family: 'Monoton', cursive;
+
+}
+.col-md-5{
+    color: whitesmoke
+}
+.col-md-4{
+    color: whitesmoke
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+     width: 140px;
+    height: 100%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #5739dd
+}
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
+.fa-tumblr, .fa-tumblr-square {
+    color: #32506d
+}
+.fa-vine {
+    color: #00bf8f
+}
+.fa-flickr {
+    color: #ff0084
+}
+.fa-vimeo-square {
+    color: #aad450
+}
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027
+}
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-spotify {
+    color: #1ED760;
+}
+
+
+
+.fa-twitter {
+    color: lightblue
+
+
+}
+
+.fa-google-plus, .fa-google-plus-square {
+    color: #dd4b39
+}
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
+.fa-tumblr, .fa-tumblr-square {
+    color: #32506d
+}
+.fa-vine {
+    color: #00bf8f
+}
+.fa-flickr {
+    color: #ff0084
+}
+.fa-vimeo-square {
+    color: #aad450
+}
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027
+}
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+}
+.fa-instagram {
+    color:orangered;
+}
+.fa-spotify {
+    color: #1ED760;
+}
+.fa-github {
+    color: black
+}
+.fa-whatsapp {
+    color: #1ED760
+}
+.fa-reddit{
+    color: orangered
+}
+.fa-skype{
+     color: aqua
+}
+.fa-telegram{
+    color: aqua
+}
+.fa-google{
+    color: red
+}
+.fa-snapchat{
+    color: yellow;
+
+}
+#last{
+    font-family: cursive;
+    color:purple;
+    text-align: center;
+    font-size: 30px;
+
+}

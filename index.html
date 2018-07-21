@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Font+Name">
         <title>PIG-DICE-GAME</title>
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -12,47 +13,87 @@
         <script src="js/scripts.js"></script>        
          
     </head>
-    <body>
+    <body id="back">
         <div class="container-fluid">
-          <div class="jumbotron">
+          <div class="jumbotron" id="higher">
             <p>P I N G-D I C E <div id="pid"></div></p>
             <P>game <div id="game"></div></P>
+            <br>
+            <br>
+            <br>
           </div> 
         </div>  
         <div class="container" id="rules">
            <div class="jumbotron" id="lower">
             <h1>RULES</h1>
-            <li>
-                <li>One player at a time.</li>
+            <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+            <ul>
+                 <li>One player at a time.</li>
                 <li>The dice runs from number 1 - 6.</li>
                 <li>Make sure you alternate when playing.</li>
                 <li>NB.MAKE SURE YOU HAVE FUN!!!</li>
-            </li>
+            </ul>
+            <br>
+            <br>
+            <br>
            </div> 
             <br>
             <br>
-            <br>
+            
             <br>
         <div class="row">
-            <div class="col-md-3">
-                <h1>Player one 1</h1>
-                <br>
-                <br>
-                <p>Tap Here<br><button>$$$ Roll Dice $$$ <div id="roll1"></div></button><button>Hold</button></p>
-                <br>
-                <h3>SCORE Player one </h3>
-            </div> 
             <div class="col-md-4">
-                    <img src="images/939962_878b_2.jpg" width="400" height="300" >
+                    <link href="https://fonts.googleapis.com/css?family=Merienda|Monoton" rel="stylesheet">
+                    <h1><span id="playerName1"></span><div id="one">Player one</div>Score: <span class="gameStatusDisplay  player1Score">0</span></h1>
+                    <div id="player1Button">
+                    <p>Player <span class="playerStatus" class="gameStatusDisplay"></span>'s Turn</p>
+                    <p>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></p>
+                    <p>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></p>
+          
+                    <button type="button" class="btn btn-warning btn-lg rollPig">$$$Roll Dice$$$</button>
+                    <button type="button" class="btn btn-primary btn-lg holdPig">Hold for points</button>
+            </div> 
+            </div>
+            <div class="col-md-3">
+                    <link href="https://fonts.googleapis.com/css?family=Merienda|Monoton" rel="stylesheet">
+                    <img src="images/Pato.gif" width="300" height="280" class="img-thumbnail">
             </div>
             <div class="col-md-5">
-                <h1>Player two 2</h1>
-                <br>
-                <br>
-                <p>Tap Here<br><button>$$$ Roll Dice $$$<div id="roll2"></div></button><button>Hold</button></p>
-                <br>
-                <h3>SCORE Player Two</h3>
+                    <h1><span id="playerName2"></span><div id="two">Player two</div>Score: <span class="gameStatusDisplay player2Score">0</span></h1>
+                    <div id="player2Button">
+                    <p>Player <span class="playerStatus"></span>'s Turn</p>
+          
+                    <p>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></p>
+                    <p>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></p>
+          
+          
+                    <button type="button" class="btn btn-warning btn-lg rollPig" id="hover">$$$Roll Dice $$$</button>
+                    <button type="button" class="btn btn-primary btn-lg holdPig">Hold for points</button>
+                    </div>
             </div>  
+         </div>  
+         <hr>
+         <hr>  
+         <div class="container-fluid" id="last">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             <h4>Contact me through.</h4>
+             <p>+254704719693</p>
+             <p>sammuiga.m@gmail.com</p>
+             <a href="https://www.facebook.com/sam.muiga.547" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/sam_m_mwangi" class="fa fa-twitter"></a>
+                <a href="https://instagram.com/https%3A%2F%2Fwww.instagram.com%2F_m.w.a.n.g.i._%2F" class="fa fa-instagram"></a>
+                <a href="https://github.com/sam291" class="fa fa-github"></a>
+                <a href="https://youtube.com/https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCnz-254HDHZndnrc2zRYVJQ%3Fdisable_polymer%3Dtrue" class="fa fa-youtube"></a>
+                <a href="+254704719693" class="fa fa-whatsapp"></a>
+                <a href="#" class="fa fa-reddit"></a>
+                <a href="https://plus.google.com/u/1/116503814761247525275" class="fa fa-google-plus"></a>
+                <a href="#" class="fa fa-skype"></a>
+                <a href="https://www.pinterest.com/samuelmuiga9/" class="fa fa-pinterest"></a>
+                <a href="+254704719693" class="fa fa-snapchat"></a>
+                <a href="sammuiga.m@gmail.com" class="fa fa-google"></a>
+                <a href="+254704719693" class="fa fa-telegram"></a>
+                <a href="spotify:user:zs0qx24s0h7rhdvcada00g7yp" class="fa fa-spotify"></a>
+                
          </div>    
     </body>
 </html>
