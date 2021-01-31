@@ -16,7 +16,7 @@ This website was built with HTML, java script and also css.
 It can only count up to a provided number which is 100.
 
 ## LINK TO SITE
-https://sam291.github.io/Pig-Dice-game/
+https://sammuiga.github.io/Pig-Dice-game/
 
 ## SETUP INSTRUCTIONS
 open your default web browser
